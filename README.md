@@ -4,10 +4,10 @@ The following code allows mining functional dependencies using partition pattern
 ## Installation:
 - git clone https://github.com/anonexp/fd_miner.git
 - virtualenv venv
-- sourve venv/bin/activate
+- source venv/bin/activate
 - python -m pip install -r requirements.txt
 - python mine_fds.py [dataset]
-    - Example: python mine_fds.py diagnostics.csv
+    - Example: python mine_fds.py experimental_datasets/diagnostics.csv
 
 ## Datasets Provided (./experimental_datasets/)
 - abalone.csv: https://archive.ics.uci.edu/ml/datasets/Abalone
