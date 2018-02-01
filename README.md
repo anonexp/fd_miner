@@ -1,11 +1,18 @@
 # Functional dependency miner - fd_miner 
 The following code allows mining functional dependencies using partition pattern structures
 
+## Requirements:
+- Python 2.7
+- Python libraries specified in requirements.txt
+- Compatible with Pypy
+
 ## Installation:
 - git clone https://github.com/anonexp/fd_miner.git
 - virtualenv venv
 - source venv/bin/activate
 - python -m pip install -r requirements.txt
+
+## Execution:
 - python mine_fds.py [dataset]
     - Example: python mine_fds.py experimental_datasets/diagnostics.csv
 
