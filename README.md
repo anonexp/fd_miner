@@ -2,7 +2,7 @@
 The following code allows mining functional dependencies using partition pattern structures
 
 ## Installation:
-- git clone https://github.com/codocedo/fd_miner.git
+- git clone https://github.com/anonexp/fd_miner.git
 - virtualenv venv
 - sourve venv/bin/activate
 - python -m pip install -r requirements.txt
